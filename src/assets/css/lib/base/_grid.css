@@ -1,0 +1,94 @@
+/* @Container */
+.container {
+    max-width: 1155px;
+    margin: 0 auto;
+}
+
+/* Columns */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin-left: -1rem;
+    margin-right: -1rem; */
+    margin: 0;
+}
+
+.column {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.col-2,
+.col-lg-2 {
+    width: 135px;
+}
+
+.col-md-4 {
+    width: 33.33%;;
+}
+
+.col-6,
+.col-sm-6 {
+    width: 50%;
+}
+
+.col-xs-12 {
+    width: 100%;
+}
+
+/* @Flex */
+.d-flex {
+    display: flex;
+}
+
+/* @Justify */
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+/* @Aligns */
+.align-center {
+    align-items: center;
+}
+
+/* @Text */
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* @Position */
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-block {
+    display: block;
+}
+
+/* @Margin */
+.m-0 {
+    margin: 0;
+}
+.ms-2 {
+    margin-left: 10px;
+}
+.mt-2 {
+    margin-top: 10px;
+}

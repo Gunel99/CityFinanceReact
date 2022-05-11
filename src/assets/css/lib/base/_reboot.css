@@ -1,0 +1,113 @@
+@import "../utilities/_font-family.css";
+@import "../utilities/_specials.css";
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Montserrat-Regular;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: Montserrat-Bold;
+    line-height: 60px;
+}
+
+h1,
+h2,
+h4 {
+    color: var(--grey-3);
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h4 {
+    font-family: Montserrat-Semi-Bold;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+h6 {
+    font-family: Montserrat-Bold;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+p {
+    color: var(--grey-2);
+}
+
+figure {
+    margin: 0;
+}
+
+.button {
+    padding: 14px 24px;
+    border-radius: 8px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    transition: all 0.5s;
+    font-family: Montserrat-Semi-Bold;
+    width: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: var(--primary-hover-color);
+}
+
+.body-medium-2 {
+    font-family: Montserrat-Medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--black-color);
+}
+
+.order {
+    max-width: 260px;
+    height: 48px;
+    margin-top: 24px;
+}

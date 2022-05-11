@@ -1,0 +1,120 @@
+@import "../utilities/_font-family.css";
+@import "../utilities/_specials.css";
+@import "../base/_grid.css";
+
+@media screen and (min-width: 1155px) {
+    #services h2 {
+        padding-top: 50px;
+        padding-bottom: 24px;
+    }
+}
+
+#services {
+    background-color: var(--bg-color);
+}
+
+#services .services {
+    padding-bottom: 101px;
+}
+
+#services .service {
+    background-color: var(--white-bg-color);
+    box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.06);
+    border-radius: 12px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#services .service:hover {
+    box-shadow: 1px 8px 15px #ccc;
+}
+
+#services .service:hover .service-content {
+    background-color: var(--white-color);
+}
+
+#services .service .service-image {
+    border-radius: 12px 12px 0px 0px;
+    width: 274px;
+    height: 165px;
+    width: 100%;
+}
+#services .service .service-image .secondary-img {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#services .service .service-image .main-img-1 {
+    width: 205.75px;
+    height: 202px;
+    left: 24.91%;
+    right: 0%;
+    top: -7.21%;
+    bottom: 16.22%;
+}
+#services .service .service-image .main-img-2 {
+    width: 183px;
+    height: 161px;
+    left: 33.21%;
+    right: 0%;
+    top: 7.21%;
+    bottom: 20.27%;
+}
+#services .service .service-image .main-img-3 {
+    width: 155px;
+    height: 151px;
+    width: 155px;
+    height: 151px;
+    left: 118px;
+    top: 20px;
+}
+#services .service .service-image .main-img-4 {
+    width: 179px;
+    height: 114px;
+    width: 179px;
+    height: 114px;
+    left: 95px;
+    top: 42px;
+}
+#services .service .service-image.first-section {
+    background: #cefbff;
+}
+
+#services .service .service-image.second-section,
+#services .service .service-image.fourth-section {
+    background: #fff1ce;
+}
+
+#services .service .service-image.third-section {
+    background: #ceffd0;
+}
+#services .service .service-content {
+    padding: 28px 16px 24px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: all 0.5s;
+}
+#services .service .service-content h6 {
+    padding-bottom: 8px;
+}
+#services .service .service-content .body-medium-2 span {
+    color: var(--grey-1);
+}
+.slick-slide {
+    width: 279px !important;
+    margin: 0px 5px !important;
+}
+.slick-list {
+    padding: 30px 0px;
+}
+.slick-dots li button:before {
+    font-size: 60px;
+    color: var(--secondary-color);
+}
+.slick-dots li.slick-active button:before {
+    color: var(--primary-color);
+}
+.slick-dots {
+    position: absolute;
+    bottom: 37px;
+    display: none !important;
+}

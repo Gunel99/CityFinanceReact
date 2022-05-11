@@ -1,0 +1,117 @@
+@import "../utilities/_font-family.css";
+@import "../utilities/_specials.css";
+@import "../base/_grid.css";
+
+#for-you {
+    background-color: #F0FFFC;
+}
+#for-you .row.cards {
+    padding-bottom: 107px;
+}
+#for-you .for-you {
+    padding-top: 50px;
+    padding-bottom: 22px;
+}
+#for-you .box {
+    background: var(--white-color);
+    border-radius: 6px;
+    padding: 32px 6px 0px 32px;
+}
+#for-you .box.second {
+    padding: 32px 32px 0px 32px;
+    height: 100%;
+}
+#for-you .box.second .title p {
+    margin-top: 9.5px;
+}
+#for-you .box .title {
+    margin-bottom: 32px;
+}
+#for-you .box .title p span {
+    color: var(--grey-1);
+}
+#for-you .box .title p {
+    margin-bottom: 0px !important;
+    font-family: Montserrat-Semi-Bold;
+}
+#for-you .box table img.currency {
+    width: 36px;
+    height: 36px;
+}
+#for-you .box table img.arrow {
+    width: 24px;
+    height: 24px;
+}
+#for-you .box table thead tr th {
+    padding-bottom: 32px;
+}
+#for-you .box table thead tr th,
+#for-you .box table tbody tr td {
+    text-align: start;
+}
+#for-you .box table tbody tr td.img {
+    padding-left: 12.5px;
+}
+#for-you .box table tbody tr:first-child td {
+    padding-bottom: 16px;
+}
+#for-you .box table tbody tr:last-child td {
+    padding-bottom: 32px;
+}
+.table > :not(caption) > * > * {
+    border: none !important;
+}
+#for-you .valyuta .line {
+    border-bottom: 3px solid #f0fffc;
+}
+#for-you .valyuta input,
+#for-you .valyuta select {
+    border: none;
+    font-family: Montserrat-Regular;
+    padding-bottom: 12px;
+    font-size: 16px;
+}
+#for-you .valyuta input:focus,
+#for-you .valyuta select:focus {
+    box-shadow: none;
+}
+#for-you .valyuta select {
+    margin-left: auto !important;
+    width: 38px !important;
+    padding: 0px !important;
+}
+#for-you .valyuta select.second {
+    width: 35px !important;
+}
+#for-you .box {
+    min-height: 237px;
+}
+#for-you .col-6:first-child {
+    padding-right: 10px;
+}
+#for-you .col-6:last-child {
+    padding-left: 10px;
+}
+#for-you table thead {
+    margin-bottom: 32px;
+    color: var(--grey-1);
+}
+#for-you table tbody {
+    margin-top: 32px;
+}
+#for-you .valyuta .line:first-child {
+    margin-bottom: 44px;
+}
+.table > :not(caption) > * > * {
+    border: none !important;
+}
+#for-you .valyuta .line {
+    border-bottom: 3px solid #f0fffc;
+}
+#for-you .box {
+    min-height: 253px;
+}
+#for-you .box .title.valyuta {
+    padding-bottom: 44px;
+    margin-bottom: 0px;
+}
