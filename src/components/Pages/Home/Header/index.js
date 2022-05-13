@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../../../assets/img/logo.svg";
-import Search from "../../../../assets/icon/search.svg";
+import Search from "../../../../assets/img/search.svg";
 import SliderImg from "../../../../assets/img/slider-img.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
